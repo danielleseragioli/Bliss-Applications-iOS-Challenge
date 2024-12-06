@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2D173C92D029BAF0089F5E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D173C82D029BAF0089F5E8 /* AppDelegate.swift */; };
+		F2D173CB2D029BAF0089F5E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D173CA2D029BAF0089F5E8 /* SceneDelegate.swift */; };
+		F2D173CD2D029BAF0089F5E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D173CC2D029BAF0089F5E8 /* ViewController.swift */; };
+		F2D173D32D029BAF0089F5E8 /* Bliss_Applications_iOS_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2D173D12D029BAF0089F5E8 /* Bliss_Applications_iOS_Challenge.xcdatamodeld */; };
+		F2D173D52D029BB00089F5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D173D42D029BB00089F5E8 /* Assets.xcassets */; };
+		F2D173E32D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D173E22D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeTests.swift */; };
+		F2D173ED2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D173EC2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITests.swift */; };
+		F2D173EF2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D173EE2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2D173DF2D029BB00089F5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2D173BD2D029BAF0089F5E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D173C42D029BAF0089F5E8;
+			remoteInfo = "Bliss Applications iOS Challenge";
+		};
+		F2D173E92D029BB00089F5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2D173BD2D029BAF0089F5E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D173C42D029BAF0089F5E8;
+			remoteInfo = "Bliss Applications iOS Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2D173C52D029BAF0089F5E8 /* Bliss Applications iOS Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bliss Applications iOS Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D173C82D029BAF0089F5E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2D173CA2D029BAF0089F5E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2D173CC2D029BAF0089F5E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2D173D22D029BAF0089F5E8 /* Bliss_Applications_iOS_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bliss_Applications_iOS_Challenge.xcdatamodel; sourceTree = "<group>"; };
+		F2D173D42D029BB00089F5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2D173D92D029BB00089F5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D173DE2D029BB00089F5E8 /* Bliss Applications iOS ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bliss Applications iOS ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D173E22D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bliss_Applications_iOS_ChallengeTests.swift; sourceTree = "<group>"; };
+		F2D173E82D029BB00089F5E8 /* Bliss Applications iOS ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bliss Applications iOS ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D173EC2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bliss_Applications_iOS_ChallengeUITests.swift; sourceTree = "<group>"; };
+		F2D173EE2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bliss_Applications_iOS_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D173C22D029BAF0089F5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D173DB2D029BB00089F5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D173E52D029BB00089F5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2D173BC2D029BAF0089F5E8 = {
+			isa = PBXGroup;
+			children = (
+				F2D173C72D029BAF0089F5E8 /* Bliss Applications iOS Challenge */,
+				F2D173E12D029BB00089F5E8 /* Bliss Applications iOS ChallengeTests */,
+				F2D173EB2D029BB00089F5E8 /* Bliss Applications iOS ChallengeUITests */,
+				F2D173C62D029BAF0089F5E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D173C62D029BAF0089F5E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D173C52D029BAF0089F5E8 /* Bliss Applications iOS Challenge.app */,
+				F2D173DE2D029BB00089F5E8 /* Bliss Applications iOS ChallengeTests.xctest */,
+				F2D173E82D029BB00089F5E8 /* Bliss Applications iOS ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D173C72D029BAF0089F5E8 /* Bliss Applications iOS Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				F2D173FF2D029D740089F5E8 /* Model */,
+				F2D173FE2D029D6D0089F5E8 /* View */,
+				F2D173FD2D029D660089F5E8 /* ViewModel */,
+				F2D173FC2D029D5E0089F5E8 /* Managers */,
+				F2D173FB2D029D4F0089F5E8 /* Resources */,
+				F2D173CC2D029BAF0089F5E8 /* ViewController.swift */,
+				F2D173D92D029BB00089F5E8 /* Info.plist */,
+				F2D173D12D029BAF0089F5E8 /* Bliss_Applications_iOS_Challenge.xcdatamodeld */,
+			);
+			path = "Bliss Applications iOS Challenge";
+			sourceTree = "<group>";
+		};
+		F2D173E12D029BB00089F5E8 /* Bliss Applications iOS ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2D173E22D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeTests.swift */,
+			);
+			path = "Bliss Applications iOS ChallengeTests";
+			sourceTree = "<group>";
+		};
+		F2D173EB2D029BB00089F5E8 /* Bliss Applications iOS ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2D173EC2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITests.swift */,
+				F2D173EE2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "Bliss Applications iOS ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		F2D173FB2D029D4F0089F5E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2D173D42D029BB00089F5E8 /* Assets.xcassets */,
+				F2D173C82D029BAF0089F5E8 /* AppDelegate.swift */,
+				F2D173CA2D029BAF0089F5E8 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F2D173FC2D029D5E0089F5E8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F2D173FD2D029D660089F5E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2D173FE2D029D6D0089F5E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2D174032D02FF8D0089F5E8 /* Repositories */,
+				F2D174022D02FF680089F5E8 /* AvatarList */,
+				F2D174012D02FF5B0089F5E8 /* EmojiList */,
+				F2D174002D02FF360089F5E8 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2D173FF2D029D740089F5E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2D174002D02FF360089F5E8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F2D174012D02FF5B0089F5E8 /* EmojiList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmojiList;
+			sourceTree = "<group>";
+		};
+		F2D174022D02FF680089F5E8 /* AvatarList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AvatarList;
+			sourceTree = "<group>";
+		};
+		F2D174032D02FF8D0089F5E8 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D173C42D029BAF0089F5E8 /* Bliss Applications iOS Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D173F22D029BB00089F5E8 /* Build configuration list for PBXNativeTarget "Bliss Applications iOS Challenge" */;
+			buildPhases = (
+				F2D173C12D029BAF0089F5E8 /* Sources */,
+				F2D173C22D029BAF0089F5E8 /* Frameworks */,
+				F2D173C32D029BAF0089F5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bliss Applications iOS Challenge";
+			productName = "Bliss Applications iOS Challenge";
+			productReference = F2D173C52D029BAF0089F5E8 /* Bliss Applications iOS Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2D173DD2D029BB00089F5E8 /* Bliss Applications iOS ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D173F52D029BB00089F5E8 /* Build configuration list for PBXNativeTarget "Bliss Applications iOS ChallengeTests" */;
+			buildPhases = (
+				F2D173DA2D029BB00089F5E8 /* Sources */,
+				F2D173DB2D029BB00089F5E8 /* Frameworks */,
+				F2D173DC2D029BB00089F5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D173E02D029BB00089F5E8 /* PBXTargetDependency */,
+			);
+			name = "Bliss Applications iOS ChallengeTests";
+			productName = "Bliss Applications iOS ChallengeTests";
+			productReference = F2D173DE2D029BB00089F5E8 /* Bliss Applications iOS ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2D173E72D029BB00089F5E8 /* Bliss Applications iOS ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D173F82D029BB00089F5E8 /* Build configuration list for PBXNativeTarget "Bliss Applications iOS ChallengeUITests" */;
+			buildPhases = (
+				F2D173E42D029BB00089F5E8 /* Sources */,
+				F2D173E52D029BB00089F5E8 /* Frameworks */,
+				F2D173E62D029BB00089F5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D173EA2D029BB00089F5E8 /* PBXTargetDependency */,
+			);
+			name = "Bliss Applications iOS ChallengeUITests";
+			productName = "Bliss Applications iOS ChallengeUITests";
+			productReference = F2D173E82D029BB00089F5E8 /* Bliss Applications iOS ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D173BD2D029BAF0089F5E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F2D173C42D029BAF0089F5E8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F2D173DD2D029BB00089F5E8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F2D173C42D029BAF0089F5E8;
+					};
+					F2D173E72D029BB00089F5E8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F2D173C42D029BAF0089F5E8;
+					};
+				};
+			};
+			buildConfigurationList = F2D173C02D029BAF0089F5E8 /* Build configuration list for PBXProject "Bliss Applications iOS Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2D173BC2D029BAF0089F5E8;
+			productRefGroup = F2D173C62D029BAF0089F5E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D173C42D029BAF0089F5E8 /* Bliss Applications iOS Challenge */,
+				F2D173DD2D029BB00089F5E8 /* Bliss Applications iOS ChallengeTests */,
+				F2D173E72D029BB00089F5E8 /* Bliss Applications iOS ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D173C32D029BAF0089F5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D173D52D029BB00089F5E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D173DC2D029BB00089F5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D173E62D029BB00089F5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D173C12D029BAF0089F5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D173D32D029BAF0089F5E8 /* Bliss_Applications_iOS_Challenge.xcdatamodeld in Sources */,
+				F2D173CD2D029BAF0089F5E8 /* ViewController.swift in Sources */,
+				F2D173C92D029BAF0089F5E8 /* AppDelegate.swift in Sources */,
+				F2D173CB2D029BAF0089F5E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D173DA2D029BB00089F5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D173E32D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D173E42D029BB00089F5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D173ED2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITests.swift in Sources */,
+				F2D173EF2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2D173E02D029BB00089F5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D173C42D029BAF0089F5E8 /* Bliss Applications iOS Challenge */;
+			targetProxy = F2D173DF2D029BB00089F5E8 /* PBXContainerItemProxy */;
+		};
+		F2D173EA2D029BB00089F5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D173C42D029BAF0089F5E8 /* Bliss Applications iOS Challenge */;
+			targetProxy = F2D173E92D029BB00089F5E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2D173F02D029BB00089F5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2D173F12D029BB00089F5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D173F32D029BB00089F5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C2M7MJD45;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bliss Applications iOS Challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielleSeragioli.Bliss-Applications-iOS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2D173F42D029BB00089F5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C2M7MJD45;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bliss Applications iOS Challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielleSeragioli.Bliss-Applications-iOS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2D173F62D029BB00089F5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C2M7MJD45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielleSeragioli.Bliss-Applications-iOS-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bliss Applications iOS Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bliss Applications iOS Challenge";
+			};
+			name = Debug;
+		};
+		F2D173F72D029BB00089F5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C2M7MJD45;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielleSeragioli.Bliss-Applications-iOS-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bliss Applications iOS Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bliss Applications iOS Challenge";
+			};
+			name = Release;
+		};
+		F2D173F92D029BB00089F5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C2M7MJD45;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielleSeragioli.Bliss-Applications-iOS-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bliss Applications iOS Challenge";
+			};
+			name = Debug;
+		};
+		F2D173FA2D029BB00089F5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C2M7MJD45;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DanielleSeragioli.Bliss-Applications-iOS-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bliss Applications iOS Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D173C02D029BAF0089F5E8 /* Build configuration list for PBXProject "Bliss Applications iOS Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D173F02D029BB00089F5E8 /* Debug */,
+				F2D173F12D029BB00089F5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D173F22D029BB00089F5E8 /* Build configuration list for PBXNativeTarget "Bliss Applications iOS Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D173F32D029BB00089F5E8 /* Debug */,
+				F2D173F42D029BB00089F5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D173F52D029BB00089F5E8 /* Build configuration list for PBXNativeTarget "Bliss Applications iOS ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D173F62D029BB00089F5E8 /* Debug */,
+				F2D173F72D029BB00089F5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D173F82D029BB00089F5E8 /* Build configuration list for PBXNativeTarget "Bliss Applications iOS ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D173F92D029BB00089F5E8 /* Debug */,
+				F2D173FA2D029BB00089F5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2D173D12D029BAF0089F5E8 /* Bliss_Applications_iOS_Challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2D173D22D029BAF0089F5E8 /* Bliss_Applications_iOS_Challenge.xcdatamodel */,
+			);
+			currentVersion = F2D173D22D029BAF0089F5E8 /* Bliss_Applications_iOS_Challenge.xcdatamodel */;
+			path = Bliss_Applications_iOS_Challenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2D173BD2D029BAF0089F5E8 /* Project object */;
+}
