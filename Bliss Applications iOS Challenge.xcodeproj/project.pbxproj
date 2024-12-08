@@ -15,6 +15,9 @@
 		F2D173E32D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D173E22D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeTests.swift */; };
 		F2D173ED2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D173EC2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITests.swift */; };
 		F2D173EF2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D173EE2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITestsLaunchTests.swift */; };
+		F2D174052D04C2370089F5E8 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D174042D04C2370089F5E8 /* Emoji.swift */; };
+		F2D174072D04C2530089F5E8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D174062D04C2530089F5E8 /* User.swift */; };
+		F2D174092D04C2BA0089F5E8 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D174082D04C2BA0089F5E8 /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F2D173E82D029BB00089F5E8 /* Bliss Applications iOS ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bliss Applications iOS ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D173EC2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bliss_Applications_iOS_ChallengeUITests.swift; sourceTree = "<group>"; };
 		F2D173EE2D029BB00089F5E8 /* Bliss_Applications_iOS_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bliss_Applications_iOS_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2D174042D04C2370089F5E8 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		F2D174062D04C2530089F5E8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F2D174082D04C2BA0089F5E8 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,9 @@
 		F2D173FF2D029D740089F5E8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F2D174042D04C2370089F5E8 /* Emoji.swift */,
+				F2D174062D04C2530089F5E8 /* User.swift */,
+				F2D174082D04C2BA0089F5E8 /* Repository.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,7 +334,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D174092D04C2BA0089F5E8 /* Repository.swift in Sources */,
+				F2D174052D04C2370089F5E8 /* Emoji.swift in Sources */,
 				F2D173D32D029BAF0089F5E8 /* Bliss_Applications_iOS_Challenge.xcdatamodeld in Sources */,
+				F2D174072D04C2530089F5E8 /* User.swift in Sources */,
 				F2D173CD2D029BAF0089F5E8 /* ViewController.swift in Sources */,
 				F2D173C92D029BAF0089F5E8 /* AppDelegate.swift in Sources */,
 				F2D173CB2D029BAF0089F5E8 /* SceneDelegate.swift in Sources */,
